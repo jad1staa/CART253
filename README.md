@@ -4,3 +4,10 @@ This website documents my work for CART 253: Creative Computation 1. It collects
 
 ![Banner image](./images/banner.jpg)
 
+## Useful Links
+
+- [Reflective Journal](./journal.md)
+
+## Prototypes
+
+This section will contain my creative coding prototypes and projects throughout the semester.
