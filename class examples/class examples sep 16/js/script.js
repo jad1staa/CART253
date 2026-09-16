@@ -24,5 +24,7 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-
+background(0,0,0);
+rect(20,50,50,50);
 }
+
