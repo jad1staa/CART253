@@ -25,6 +25,7 @@ function setup() {
 */
 function draw() {
 background(0,0,0);
-rect(20,50,50,50);
+rect(20,50,150,50);
+rect(20,250,150,50);
 }
 
