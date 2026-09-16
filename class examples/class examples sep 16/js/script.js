@@ -31,6 +31,15 @@ strokeWeight(5);
 ellipse(100,100,20,20);
 ellipse(200,100,50,50);
 
+//ellipse green
+fill(0,255,0);
+ellipse(200,100,50,50);
+
+
+//rect green
+strokeweight(1);
+rect(400,50,10,40);
+
 //rectangles to use ...
 //rect(20,50,150,50);
 //rect(20,250,150,50);
