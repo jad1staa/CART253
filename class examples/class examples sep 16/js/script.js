@@ -25,9 +25,11 @@ function setup() {
 */
 function draw() {
 background(0,0,0);
-fill()
-stroke()
-ellipse (100,100,20,20);
+fill(255,0,0);
+stroke(255,255,255)
+strokeWeight(5);
+ellipse(100,100,20,20);
+ellipse(200,100,50,50);
 
 //rectangles to use ...
 //rect(20,50,150,50);
