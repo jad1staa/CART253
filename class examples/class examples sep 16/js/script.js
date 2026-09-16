@@ -25,7 +25,13 @@ function setup() {
 */
 function draw() {
 background(0,0,0);
-rect(20,50,150,50);
-rect(20,250,150,50);
+fill()
+stroke()
+ellipse (100,100,20,20);
+
+//rectangles to use ...
+//rect(20,50,150,50);
+//rect(20,250,150,50);
+
 }
 
