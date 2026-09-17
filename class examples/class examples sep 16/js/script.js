@@ -24,28 +24,26 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-background(0,0,0);
-fill(255,0,0);
-stroke(255,255,255)
-strokeWeight(5);
-ellipse(100,100,20,20);
-ellipse(200,100,50,50);
-
-//ellipse green
-fill(0,255,0);
-ellipse(200,100,50,50);
+    background(0,0,0);
+    //call the function - run the code
+    drawRoof();
+    drawHouseBody();
 
 
-//rect green
-strokeweight(1);
-rect(400,50,10,40);
+}
+//function to draw roof
+function drawRoof(){
+    push();
+    fill(155,155,155);
+    triangle(30,75,65,20,100,75);
+    pop();
 
-//rect default
-rect(400,400,50,50);
-
-//rectangles to use ...
-//rect(20,50,150,50);
-//rect(20,250,150,50);
+}
+function drawHouseBody(){
+    push ();
+    fill(255,0,0);
+    rect(30,75,50,50);
+    pop();
 
 }
 
