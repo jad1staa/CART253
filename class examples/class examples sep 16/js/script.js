@@ -40,6 +40,9 @@ ellipse(200,100,50,50);
 strokeweight(1);
 rect(400,50,10,40);
 
+//rect default
+rect(400,400,50,50);
+
 //rectangles to use ...
 //rect(20,50,150,50);
 //rect(20,250,150,50);
