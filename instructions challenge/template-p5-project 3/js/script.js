@@ -37,6 +37,16 @@ function draw() {
     ellipse(300,120,50,50);
     ellipse(400,120,50,50);
 
+    fill(255,255,255);
+    stroke(255,255,255);
+    strokeWeight(5);
+    rect(40,180,10,40);
+    rect(450,180,10,40);
+
+    stroke(255,255,255);
+    strokeWeight(5);
+    rect(40,160,420,40);
+
     fill(96,186,53);
     stroke(255,255,255);
     strokeWeight(5);
