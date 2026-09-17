@@ -27,27 +27,41 @@ function draw() {
     fill(255,0,0);
     stroke(255,255,255);
     strokeWeight(5);
-    ellipse(100,100,50,50);
-    ellipse(200,100,50,50);
-    ellipse(300,100,50,50);
-    ellipse(400,100,50,50);
+    ellipse(100,150,50,50);
+    ellipse(200,150,50,50);
+    ellipse(300,150,50,50);
+    ellipse(400,150,50,50);
     
-    ellipse(100,70,50,50);
-    ellipse(200,70,50,50);
-    ellipse(300,70,50,50);
-    ellipse(400,70,50,50);
+    ellipse(100,120,50,50);
+    ellipse(200,120,50,50);
+    ellipse(300,120,50,50);
+    ellipse(400,120,50,50);
+
+    fill(96,186,53);
+    stroke(255,255,255);
+    strokeWeight(5);
+    ellipse(100,250,50,50);
+    ellipse(200,250,50,50);
+    ellipse(300,250,50,50);
+    ellipse(400,250,50,50);
+
+    ellipse(100,220,50,50);
+    ellipse(200,220,50,50);
+    ellipse(300,220,50,50);
+    ellipse(400,220,50,50);
 
     fill(64,224,208);
     stroke(255,255,255);
-    strokeWeight(5);
-    ellipse(100,200,50,50);
-    ellipse(200,200,50,50);
-    ellipse(300,200,50,50);
-    ellipse(400,200,50,50);
+    ellipse(250,2800,5000,5000);
 
-    ellipse(100,170,50,50);
-    ellipse(200,170,50,50);
-    ellipse(300,170,50,50);
-    ellipse(400,170,50,50);
+    fill(255,215,0);
+    stroke(255,255,255);
+    ellipse(475,20,150,150);
+    
+
+
+
+
+    
 
 }
