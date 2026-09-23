@@ -11,6 +11,8 @@
  * Creates the canvas and draws the sunset scene.
 */
 function setup() {
+     createCanvas(600, 400);
+    background(247, 166, 91);
 
 }
 
