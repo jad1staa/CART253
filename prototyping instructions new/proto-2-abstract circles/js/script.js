@@ -24,6 +24,14 @@ function setup() {
 
     fill(150, 70, 90);
     ellipse(500, 100, 160);
+
+    // Medium circles
+    fill(225, 145, 80);
+    ellipse(180, 280, 150);
+
+    fill(190, 90, 100);
+    ellipse(400, 260, 180);
+
     
 }
 
