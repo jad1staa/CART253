@@ -28,6 +28,13 @@ let sky = {
   b: 200
 };
 
+// The annoying bird
+let bird = {
+  x: 0,
+  y: 100,
+  speed: 2
+};
+
 /**
  * Create the canvas
  */
