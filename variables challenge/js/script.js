@@ -33,6 +33,10 @@ function setup() {
  */
 function draw() {
   background(160, 180, 200);
+
+  // Make Mr. Furious gradually turn red
+  mrFurious.fill.g = constrain(mrFurious.fill.g - 1, 0, 255);
+  mrFurious.fill.b = constrain(mrFurious.fill.b - 1, 0, 255);
   
   // Draw Mr. Furious as a coloured circle
   push();
