@@ -21,6 +21,13 @@ let mrFurious = {
   }
 };
 
+// The sky's colour
+let sky = {
+  r: 160,
+  g: 180,
+  b: 200
+};
+
 /**
  * Create the canvas
  */
@@ -32,7 +39,7 @@ function setup() {
  * Draw (and update) Mr. Furious
  */
 function draw() {
-  background(160, 180, 200);
+  background(sky.r, sky.g, sky.b);
 
   // Make Mr. Furious gradually turn red
   mrFurious.fill.g = constrain(mrFurious.fill.g - 1, 0, 255);
