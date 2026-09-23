@@ -14,11 +14,21 @@ function setup() {
      createCanvas(600, 400);
     background(247, 166, 91);
 
+     // Sun
+    fill(255, 217, 90);
+    noStroke();
+    ellipse(450, 120, 120);
+
+    // Ocean
+    fill(59, 142, 165);
+    rect(0, 250, 600, 150);
+
+    
 }
 
 
 /**
- * Draws the sunset scene.
+ * 
 */
 function draw() {
 
