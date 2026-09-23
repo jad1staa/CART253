@@ -32,6 +32,15 @@ function setup() {
     fill(190, 90, 100);
     ellipse(400, 260, 180);
 
+    // Small circles
+    fill(230, 170, 100);
+    ellipse(80, 350, 90);
+
+    fill(160, 100, 120);
+    ellipse(300, 350, 100);
+
+    fill(215, 120, 90);
+    ellipse(540, 340, 110);
     
 }
 
