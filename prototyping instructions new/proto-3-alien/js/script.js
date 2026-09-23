@@ -21,7 +21,16 @@ function setup() {
     ellipse(245, 180, 55, 100);
     ellipse(355, 180, 55, 100);
 
+    // Eye highlights
+    fill(255);
+    ellipse(235, 165, 12, 20);
+    ellipse(345, 165, 12, 20);
+
+    // Mouth
+    fill(40, 60, 50);
+    ellipse(300, 275, 80, 35);
 }
+
 
 
 /**
