@@ -41,6 +41,11 @@ function setup() {
 function draw() {
   background(sky.r, sky.g, sky.b);
 
+  // Make the sky darker over time
+    sky.r = constrain(sky.r - 0.5, 0, 255);
+    sky.g = constrain(sky.g - 0.5, 0, 255);
+    sky.b = constrain(sky.b - 0.5, 0, 255);
+
   // Make Mr. Furious gradually turn red
   mrFurious.fill.g = constrain(mrFurious.fill.g - 1, 0, 255);
   mrFurious.fill.b = constrain(mrFurious.fill.b - 1, 0, 255);
