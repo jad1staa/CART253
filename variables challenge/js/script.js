@@ -71,6 +71,10 @@ function draw() {
   push();
   noStroke();
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
-  ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
+  ellipse(
+  mrFurious.x + random(-5, 5),
+  mrFurious.y + random(-5, 5),
+  mrFurious.size
+);
   pop();
 }
