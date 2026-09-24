@@ -35,6 +35,9 @@ let bird = {
   speed: 2
 };
 
+// Mr. Furious's rage
+let rage = 0;
+
 /**
  * Create the canvas
  */
