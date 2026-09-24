@@ -53,6 +53,16 @@ function draw() {
     sky.g = constrain(sky.g - 0.5, 0, 255);
     sky.b = constrain(sky.b - 0.5, 0, 255);
 
+    // Move the bird
+    bird.x += bird.speed;
+
+    // Draw the bird
+    stroke(0);
+    strokeWeight(3);
+    noFill();
+    arc(bird.x, bird.y, 30, 20, PI, TWO_PI);
+    arc(bird.x + 20, bird.y, 30, 20, PI, TWO_PI);
+
   // Make Mr. Furious gradually turn red
   mrFurious.fill.g = constrain(mrFurious.fill.g - 1, 0, 255);
   mrFurious.fill.b = constrain(mrFurious.fill.b - 1, 0, 255);
