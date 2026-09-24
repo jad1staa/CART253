@@ -66,6 +66,9 @@ function draw() {
     arc(bird.x, bird.y, 30, 20, PI, TWO_PI);
     arc(bird.x + 20, bird.y, 30, 20, PI, TWO_PI);
 
+    // Increase rage over time
+    rage = constrain(rage + 0.05, 0, 5);
+
   // Make Mr. Furious gradually turn red
   mrFurious.fill.g = constrain(mrFurious.fill.g - 1, 0, 255);
   mrFurious.fill.b = constrain(mrFurious.fill.b - 1, 0, 255);
@@ -75,8 +78,8 @@ function draw() {
   noStroke();
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
   ellipse(
-  mrFurious.x + random(-5, 5),
-  mrFurious.y + random(-5, 5),
+  mrFurious.x + random(-rage, rage),
+  mrFurious.y + random(-rage, rage),
   mrFurious.size
 );
   pop();
