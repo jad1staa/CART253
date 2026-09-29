@@ -26,6 +26,10 @@ function draw() {
 
     flowerSize = flowerSize + 0.5;
 
+    stroke(70, 130, 70);
+    strokeWeight(6);
+    line(300, 350, 300, 250);
+
     fill(240, 150, 180);
     ellipse(300, 250, flowerSize);
     ellipse(350, 250, flowerSize);
