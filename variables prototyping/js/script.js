@@ -13,6 +13,7 @@
 */
 
 let flowerSize = 10;
+let flowerSway = 0;
 function setup() {
     createCanvas(600, 400);
 }
