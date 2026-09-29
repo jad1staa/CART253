@@ -26,6 +26,8 @@ function draw() {
     background(220, 235, 245);
 
     flowerSize = constrain(flowerSize + 0.5, 10, 150);
+    
+    flowerSway = sin(frameCount * 0.02) * 5;
 
     fill(100, 150, 80);
     noStroke();
