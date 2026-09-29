@@ -28,7 +28,8 @@ function draw() {
 
     stroke(70, 130, 70);
     strokeWeight(6);
-    line(300, 350, 300, 250);
+    line(300, 350, 300, 350 - flowerSize);
+
 
     fill(240, 150, 180);
     ellipse(300, 200, flowerSize);
