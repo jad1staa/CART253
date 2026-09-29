@@ -26,8 +26,12 @@ function draw() {
 
     flowerSize = constrain(flowerSize + 0.5, 10, 150);
 
+    fill(100, 150, 80);
+    noStroke();
+    rect(0, 350, 600, 50);
+
     stroke(70, 130, 70);
-    strokeWeight(6);
+    strokeWeight(10 - flowerSize / 20);
     line(300, 350, 300, 350 - flowerSize);
 
 
