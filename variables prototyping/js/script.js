@@ -22,6 +22,8 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+    background(220, 235, 245);
+
     flowerSize = flowerSize + 0.5;
 
 }
