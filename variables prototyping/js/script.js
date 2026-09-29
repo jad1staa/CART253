@@ -24,7 +24,7 @@ function setup() {
 function draw() {
     background(220, 235, 245);
 
-    flowerSize = flowerSize + 0.5;
+    flowerSize = constrain(flowerSize + 0.5, 10, 150);
 
     stroke(70, 130, 70);
     strokeWeight(6);
