@@ -11,8 +11,10 @@
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
-function setup() {
 
+let flowerSize = 10;
+function setup() {
+    createCanvas(600, 400);
 }
 
 
