@@ -32,4 +32,7 @@ function draw() {
     ellipse(300, 300, flowerSize);
     ellipse(250, 250, flowerSize);
 
+    fill(255, 200, 80);
+    ellipse(300, 250, flowerSize * 0.6);
+
 }
