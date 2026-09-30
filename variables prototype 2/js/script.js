@@ -34,6 +34,10 @@ function draw() {
     fill(255, 220, 80);
     ellipse(sunX, 120, 70);
 
+    //moon drawing
+    fill(240, 240, 210);
+    ellipse(500, 120, (sunX - 100) / 8);
+    
      //ocean drawing
     fill(40, 140, 190);
     noStroke();
