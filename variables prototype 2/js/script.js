@@ -28,16 +28,16 @@ function draw() {
 
     // Move the sun across the sky
     sunX = constrain(sunX + 1, 100, 500);
-
+    
     //sun drawing
     noStroke();
     fill(255, 220, 80);
-    ellipse(sunX, 120, 70);
+    ellipse(sunX, 120 + (sunX - 100) * 0.45, 70);
 
     //moon drawing
     fill(240, 240, 210);
-    ellipse(500, 120, (sunX - 100) / 8);
-    
+    ellipse(500, 120, 20 + (sunX - 100) / 5);
+
      //ocean drawing
     fill(40, 140, 190);
     noStroke();
