@@ -26,7 +26,15 @@ function setup() {
 function draw() {
   background(120, 190, 230);
 
-  fill(40, 140, 190);
-  noStroke();
-  rect(0, 250, 600, 150);
+    //ocean drawing
+    fill(40, 140, 190);
+    noStroke();
+    rect(0, 250, 600, 150);
+
+    // Move the sun across the sky
+    sunX = constrain(sunX + 1, 100, 500);
+
+    //sun drawing
+    fill(255, 220, 80);
+    ellipse(sunX, 120, 70);
 }
