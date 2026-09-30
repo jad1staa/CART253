@@ -41,6 +41,33 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+
+    mouseX, mouseY
+    let distance = dist(creature.x, creature.y, mouseX, mouseY);
+    let mouseIsMoving = (movedX >0 || movedY >0);
+    //console.log(distance);
+    if (distance < creature.w/2 && mouseIsPressed === true){
+        creature.currentFill = creature.fillStates.angry;
+
+    }
+    else{
+        creature.currentFill = creature.fillStates.neutral;
+    }
+
+
+
+   // if(mouseIsPressed === true){
+   //     creature.currentFill = creature.fillStates.angry;
+        //fill(creature.fillStates.angry);
+
+   // }
+   // else if(keyIsPressed === true){
+   //     creature.currentFill = creature.fillStates.happy;
+   // }
+   // else{
+   //     creature.currentFill = creature.fillStates.neutral;
+   // }
+
     background(0);
     push();
     //body
@@ -49,9 +76,9 @@ function draw() {
     
     fill(creature.eye.fillColor);
     //left eye
-    ellipse(creature.eye.center_x, creature.eye.center_y, creature.eye.size, creature.eye.size);
+    ellipse(creature.eye.center_x-30, creature.eye.center_y, creature.eye.size);
     //right eye
-    ellipse(creature.eye.center_x, creature.eye.center_y, creature.eye.size, creature.eye.size);
+    ellipse(creature.eye.center_x+30, creature.eye.center_y, creature.eye.size);
 
     pop();
 
