@@ -28,14 +28,21 @@ function setup() {
 function draw() {
 background(220, 240, 250);
 
-  // draw balloon
-  fill(240, 80, 100);
-  noStroke();
-  ellipse(balloonX, balloonY, balloonSize);
+    // Move the balloon upward
+    balloonY = balloonY - 0.5;
 
-  // draw string
-  stroke(80);
-  strokeWeight(2);
-  line(balloonX, balloonY + balloonSize / 2, balloonX, 400);
+    // Make the balloon sway
+    sway = sway + 0.03;
+    balloonX = 300 + sin(sway) * 30;
+
+    // draw balloon
+    fill(240, 80, 100);
+    noStroke();
+    ellipse(balloonX, balloonY, balloonSize);
+
+    // draw string
+    stroke(80);
+    strokeWeight(2);
+    line(balloonX, balloonY + balloonSize / 2, balloonX, 400);
 
 }
