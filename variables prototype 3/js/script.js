@@ -15,6 +15,7 @@
 let balloonX = 300;
 let balloonY = 300;
 let balloonSize = 60;
+let sizeChange = 0;
 let sway = 0;
 function setup() {
     createCanvas(600, 400);
@@ -34,6 +35,10 @@ background(220, 240, 250);
     // Make the balloon sway
     sway = sway + 0.03;
     balloonX = 300 + sin(sway) * 30;
+
+    // Make the balloon gently grow and shrink
+    sizeChange = sizeChange + 0.05;
+    balloonSize = 60 + sin(sizeChange) * 8;
 
     // draw balloon
     fill(240, 80, 100);
