@@ -12,8 +12,10 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 
-let sunX = 100;
-let waveOffset = 0;
+let balloonX = 300;
+let balloonY = 300;
+let balloonSize = 60;
+let sway = 0;
 function setup() {
     createCanvas(600, 400);
     
@@ -24,37 +26,16 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-  background(120 + sunX / 5, 190 - sunX / 5, 230 - sunX / 5);
+background(220, 240, 250);
 
-    // Move the sun across the sky
-    sunX = constrain(sunX + 1, 100, 500);
-    
-    //sun drawing
-    noStroke();
-    fill(255, 220, 80);
-    ellipse(sunX, 120 + (sunX - 100) * 0.45, 70);
+  // draw balloon
+  fill(240, 80, 100);
+  noStroke();
+  ellipse(balloonX, balloonY, balloonSize);
 
-    //moon drawing
-    fill(240, 240, 210);
-    ellipse(500, 400 - (sunX - 100) * 0.7, 20 + (sunX - 100) / 5);
+  // draw string
+  stroke(80);
+  strokeWeight(2);
+  line(balloonX, balloonY + balloonSize / 2, balloonX, 400);
 
-     //ocean drawing
-    fill(40, 140, 190);
-    noStroke();
-    rect(0, 250, 600, 150);
-
-    // Move the waves
-    waveOffset = waveOffset + 0.05;
-
-    //wave drawing
-    stroke(180, 220, 240);
-    strokeWeight(3);
-    noFill();
-
-    arc(100 + sin(waveOffset) * 10, 290, 50, 15, PI, TWO_PI);
-        arc(150 + sin(waveOffset + 1) * 10, 300, 50, 15, PI, TWO_PI);       
-    arc(200 + sin(waveOffset) * 10, 320, 50, 15, PI, TWO_PI);
-    arc(300 + sin(waveOffset) * 10, 275, 50, 15, PI, TWO_PI);
-    arc(400 + sin(waveOffset) * 10, 310, 50, 15, PI, TWO_PI);
-    arc(500 + sin(waveOffset) * 10, 290, 50, 15, PI, TWO_PI);   
 }
