@@ -36,7 +36,7 @@ function draw() {
 
     //moon drawing
     fill(240, 240, 210);
-    ellipse(500, 120, 20 + (sunX - 100) / 5);
+    ellipse(500, 400 - (sunX - 100) * 0.7, 20 + (sunX - 100) / 5);
 
      //ocean drawing
     fill(40, 140, 190);
