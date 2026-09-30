@@ -24,7 +24,7 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-  background(120, 190, 230);
+  background(120 + sunX / 5, 190 - sunX / 5, 230 - sunX / 5);
 
     //ocean drawing
     fill(40, 140, 190);
