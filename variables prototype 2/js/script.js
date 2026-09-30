@@ -12,8 +12,10 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 
-
+let sunX = 100;
+let waveOffset = 0;
 function setup() {
+    createCanvas(600, 400);
     
 }
 
