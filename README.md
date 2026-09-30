@@ -13,12 +13,12 @@ This website documents my work for CART 253: Creative Computation 1. It collects
 This section will contain my creative coding prototypes and projects throughout the semester.
 
 ### First ever prototype (from prototyping challenge 1)
-![alt text](image-5.png)
+![alt text](beach-volleyball.png)
 
 ### First prototypes under project 1!
 
 #### Proto 1 - Sunset
-![alt text](image-3.png)
+![alt text](orange-sunset-ocean.png)
 
 Live Link: http://127.0.0.1:5500/prototyping%20instructions%20new/proto-1-sunset/
 
@@ -26,7 +26,7 @@ Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20instructi
 
 
 #### Proto 2 - Abstract Circles
-![alt text](image-4.png)
+![alt text](circles.png)
 
 Live Link: http://127.0.0.1:5500/prototyping%20instructions%20new/proto-2-abstract%20circles/
 
@@ -34,7 +34,7 @@ Code Link:
 https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/proto-2-abstract%20circles
 
 #### Proto 3 - Alien
-![alt text](image-2.png)
+![alt text](alien.png)
 
 Live Link: http://127.0.0.1:5500/prototyping%20instructions%20new/proto-3-alien/
 
@@ -45,7 +45,7 @@ https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/p
 ### Prototyping: Variables
 
 #### Proto 1 - Growing Flower
-![alt text](image-1.png)
+![alt text](flower.png)
 
 Live Link: [Growing Flower](http://127.0.0.1:5500/variables%20prototypes%20assignment/variables%20prototype%201/)
 
@@ -53,7 +53,7 @@ Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20pr
 
 
 #### Proto 2 - Moving Ocean
-![alt text](image.png)
+![alt text](ocean-sunset.png)
 
 Live Link: [Moving Ocean](http://127.0.0.1:5500/variables%20prototype%202/)
 
@@ -61,7 +61,7 @@ Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20pr
 
 
 #### Proto 3 - Floating Balloon
-![alt text](image-2.png)
+![alt text](balloon.png)
 
 Live Link: [Floating Balloon](http://127.0.0.1:5500/variables%20prototypes%20assignment/variables%20prototype%203/)
 
