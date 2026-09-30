@@ -18,3 +18,16 @@ The most frustrating part of the assignment was honestly everything around the c
 Overall, though, I am happy with how everything turned out. I am starting to understand how individual p5.js instructions can be combined to create something more interesting.
 
 ![alt text](image-1.png)
+
+
+## September 30, 2026 — Prototyping Variables
+
+Working on these three prototypes surprised me because I realized how much can be expressed through variables. Before this assignment, I thought coding might be somewhat limiting compared to other creative tools I am used to. I expected that I would have to work within strict rules and that it would be difficult to create anything visually interesting. After experimenting with variables, I actually feel the opposite.
+
+For the growing flower, I used variables to control its size, movement, and colour as it developed over time. For the ocean prototype, I experimented with the sun, moon, sky, and waves, using variables to create movement and changes that represented the transition from day to night. For the balloon, I used variables to control its position and size, making it float and sway naturally.
+
+What I found most interesting was that one variable could affect multiple parts of an image. Using math and functions like sin() also allowed me to create movement that felt less static and more alive. I started to see code less as a set of limitations and more as another creative medium.
+
+I still have a lot to learn, but this assignment made me realize that there are many things I can express with code that I could not express before. It made creative coding feel much more open-ended than I originally expected.
+
+![alt text](ocean-sunset.png)
