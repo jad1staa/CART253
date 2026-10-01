@@ -44,10 +44,12 @@ function draw() {
   // Move user circle
   moveUser();
   movePuck();
+  checkTarget();
 
   // Draw the user and puck
   drawUser();
   drawPuck();
+  drawTarget();
 }
 
     /**
@@ -90,4 +92,29 @@ function drawPuck() {
   fill(puck.fill);
   ellipse(puck.x, puck.y, puck.size);
   pop();
+}
+
+/**
+ * Displays the target circle
+ */
+function drawTarget() {
+  push();
+  noStroke();
+  fill(target.fill);
+  ellipse(target.x, target.y, target.size);
+  pop();
+}
+
+/**
+ * Checks if the puck is overlapping the target
+ */
+function checkTarget() {
+  let distance = dist(puck.x, puck.y, target.x, target.y);
+
+  if (distance < puck.size / 2 + target.size / 2) {
+    target.fill = "#00ff00";
+  }
+  else {
+    target.fill = "#ff0000";
+  }
 }
