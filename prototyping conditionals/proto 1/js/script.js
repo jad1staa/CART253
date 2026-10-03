@@ -37,10 +37,19 @@ function draw() {
         if (mouseX < circle.x) {
         circle.x = circle.x + 2;
         }
-    else {
+
+        else {
         circle.x = circle.x - 2;
+        }
+
+        if (mouseY < circle.y) {
+        circle.y = circle.y + 2;
+        }
+
+        else {
+        circle.y = circle.y - 2;
+        }
     }
-}
 
     fill(circle.fill);
     noStroke();
