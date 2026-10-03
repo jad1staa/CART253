@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Shy Circle
+ * Jad Nami
+ *
+ * A circle that tries to escape when the mouse gets too close.
  */
 
 "use strict";
@@ -26,7 +25,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ *  Moves the circle away from the mouse when it gets too close
 */
 function draw() {
     background("#aaaaaa");
