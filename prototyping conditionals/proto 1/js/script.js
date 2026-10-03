@@ -31,5 +31,19 @@ function setup() {
 function draw() {
     background("#aaaaaa");
 
+    let distance = dist(mouseX, mouseY, circle.x, circle.y);
+
+    if (distance < 100) {
+        if (mouseX < circle.x) {
+        circle.x = circle.x + 2;
+        }
+    else {
+        circle.x = circle.x - 2;
+    }
+}
+
+    fill(circle.fill);
+    noStroke();
+    ellipse(circle.x, circle.y, circle.size);
 
 }
