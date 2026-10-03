@@ -1,24 +1,31 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Lucky Circle
+ * Jad Nami
+ *
+ * A circle that sometimes becomes surprisingly large.
  */
-
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
-function setup() {
+const circle = {
+  x: 200,
+  y: 200,
+  size: 50
+};
 
+/**
+ * Creates the canvas
+ */
+function setup() {
+  createCanvas(400, 400);
 }
 
-
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+ * Draws the circle
+ */
 function draw() {
+  background("#aaaaaa");
 
+  fill("#ff0000");
+  noStroke();
+  ellipse(circle.x, circle.y, circle.size);
 }
