@@ -34,6 +34,12 @@ function draw() {
     let chance = random(100);
 
     if (chance < 10) {
+    lucky = true;
+    circle.x = random(50, 350);
+    circle.y = random(50, 350);
+    }
+
+    if (chance < 10) {
         lucky = true;
     }
     else {
