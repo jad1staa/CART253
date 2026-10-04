@@ -20,7 +20,7 @@ This section will contain my creative coding prototypes and projects throughout 
 #### Proto 1 - Sunset
 ![alt text](orange-sunset-ocean.png)
 
-Live Link: http://127.0.0.1:5500/prototyping%20instructions%20new/proto-1-sunset/
+Live Link: https://jad1staa.github.io/CART253/prototyping%20instructions%20new/proto-1-sunset/
 
 Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/proto-1-sunset
 
@@ -28,7 +28,7 @@ Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20instructi
 #### Proto 2 - Abstract Circles
 ![alt text](circles.png)
 
-Live Link: http://127.0.0.1:5500/prototyping%20instructions%20new/proto-2-abstract%20circles/
+Live Link: https://jad1staa.github.io/CART253/prototyping%20instructions%20new/proto-2-abstract%20circles/
 
 Code Link: 
 https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/proto-2-abstract%20circles
@@ -36,7 +36,7 @@ https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/p
 #### Proto 3 - Alien
 ![alt text](alien.png)
 
-Live Link: http://127.0.0.1:5500/prototyping%20instructions%20new/proto-3-alien/
+Live Link: https://jad1staa.github.io/CART253/prototyping%20instructions%20new/proto-3-alien/
 
 Code Link: 
 https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/proto-3-alien
@@ -47,7 +47,7 @@ https://github.com/jad1staa/CART253/tree/main/prototyping%20instructions%20new/p
 #### Proto 1 - Growing Flower
 ![alt text](flower.png)
 
-Live Link: [Growing Flower](http://127.0.0.1:5500/variables%20prototypes%20assignment/variables%20prototype%201/)
+Live Link: [Growing Flower](https://jad1staa.github.io/CART253/variables%20prototypes%20assignment/variables%20prototype%201/)
 
 Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20prototypes%20assignment/variables%20prototype%201)
 
@@ -55,7 +55,7 @@ Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20pr
 #### Proto 2 - Moving Ocean
 ![alt text](ocean-sunset.png)
 
-Live Link: [Moving Ocean](http://127.0.0.1:5500/variables%20prototype%202/)
+Live Link: [Moving Ocean](https://jad1staa.github.io/CART253/variables%20prototypes%20assignment/variables%20prototype%202)
 
 Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20prototypes%20assignment/variables%20prototype%202)
 
@@ -63,7 +63,7 @@ Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20pr
 #### Proto 3 - Floating Balloon
 ![alt text](balloon.png)
 
-Live Link: [Floating Balloon](http://127.0.0.1:5500/variables%20prototypes%20assignment/variables%20prototype%203/)
+Live Link: [Floating Balloon](https://jad1staa.github.io/CART253/variables%20prototypes%20assignment/variables%20prototype%203/)
 
 Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20prototypes%20assignment/variables%20prototype%203)
 
