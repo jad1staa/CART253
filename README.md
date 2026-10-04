@@ -66,3 +66,27 @@ Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20pr
 Live Link: [Floating Balloon](http://127.0.0.1:5500/variables%20prototypes%20assignment/variables%20prototype%203/)
 
 Code Link: [GitHub](https://github.com/jad1staa/CART253/tree/main/variables%20prototypes%20assignment/variables%20prototype%203)
+
+
+### Prototyping: Conditionals
+
+#### Proto 1 - Shy Circles
+![alt text](shy.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20conditionals/proto%201/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20conditionals/proto%201
+
+#### Proto 2 - Lucky Circle
+![alt text](lucky.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20conditionals/proto%202/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20conditionals/proto%202
+
+#### Proto 3 - Split Personalities
+![alt text](split.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20conditionals/proto%203/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20conditionals/proto%203

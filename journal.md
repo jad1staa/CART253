@@ -31,3 +31,18 @@ What I found most interesting was that one variable could affect multiple parts 
 I still have a lot to learn, but this assignment made me realize that there are many things I can express with code that I could not express before. It made creative coding feel much more open-ended than I originally expected.
 
 ![alt text](ocean-sunset.png)
+
+
+## October 4th, 2026 — Prototyping Conditionals
+
+For this assignment, I explored different ways conditionals can create behaviour and personality in simple interactive systems. I wanted each prototype to use conditionals in a different way rather than just repeating the same idea.
+
+My first prototype, “Shy Circle,” uses the mouse position to determine how the circle behaves. When the mouse gets close, the circle moves away. I liked this idea because a very simple conditional can make an object feel like it has a personality. It almost feels like the circle is aware of the user and does not want to be approached.
+
+My second prototype, “Lucky Circle,” explores randomness and rarity. Most of the time, the circle stays small and red, but occasionally it becomes large, changes colour, and moves to a random location. The conditional creates a rare event that the user has to wait for. I found this interesting because the interaction does not always produce the same result.
+
+My third prototype, “Split Personalities,” uses the mouse position as a choice. When the mouse is on one side of the canvas, the circle becomes small and green, while on the other side it becomes large and blue. This made me think about conditionals as a way of creating different states or personalities within the same object.
+
+Overall, I learned that conditionals can do more than simply tell a program what to do. They can create choices, reactions, surprises, and different behaviours. Even with very simple code, changing the conditions can make an interaction feel much more alive.
+
+![alt text](image.png)
