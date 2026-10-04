@@ -1,24 +1,31 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Two-Sided Circle
+ * Jad Nami
+ *
+ * A circle that changes depending on which side of the canvas the mouse is on.
  */
-
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
-function setup() {
+const circle = {
+  x: 200,
+  y: 200,
+  size: 100
+};
 
+/**
+ * Creates the canvas
+ */
+function setup() {
+  createCanvas(400, 400);
 }
 
-
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+ * Changes the circle based on the mouse position
+ */
 function draw() {
+  background("#aaaaaa");
 
+  fill("#ff0000");
+  noStroke();
+  ellipse(circle.x, circle.y, circle.size);
 }
