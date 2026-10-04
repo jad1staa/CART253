@@ -1,5 +1,5 @@
 /**
- * Two-Sided Circle
+ * Split Personalities
  * Jad Nami
  *
  * A circle that changes depending on which side of the canvas the mouse is on.
@@ -23,9 +23,17 @@ function setup() {
  * Changes the circle based on the mouse position
  */
 function draw() {
-  background("#aaaaaa");
+  if (mouseX < 200) {
+    background("#ffffcc");
+    circle.size = 50;
+    fill("#00ff00");
+  }
+  else {
+    background("#ccccff");
+    circle.size = 150;
+    fill("#0000ff");
+  }
 
-  fill("#ff0000");
   noStroke();
   ellipse(circle.x, circle.y, circle.size);
 }
