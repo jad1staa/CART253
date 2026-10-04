@@ -12,6 +12,8 @@ const circle = {
   size: 50
 };
 
+let lucky = false;
+
 /**
  * Creates the canvas
  */
@@ -24,6 +26,24 @@ function setup() {
  */
 function draw() {
   background("#aaaaaa");
+
+  let chance = random(100);
+
+    if (chance < 10) {
+        lucky = true;
+    }
+    else {
+        lucky = false;
+    }
+
+    if (lucky) {
+        circle.size = 150;
+        fill("#ffff00");
+    }
+    else {
+        circle.size = 50;
+        fill("#ff0000");
+    }
 
   fill("#ff0000");
   noStroke();
