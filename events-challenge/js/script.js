@@ -72,6 +72,16 @@ function mouseWheel() {
 }
 
 /**
+ * Handles going offline
+ */
+window.addEventListener("offline", lose);
+
+/**
+ * Handles going online
+ */
+window.addEventListener("online", lose);
+
+/**
  * Show the game over message if needed, and the current score
  */
 function displayUI() {
