@@ -44,6 +44,13 @@ function draw() {
 }
 
 /**
+ * Handles keyboard presses
+ */
+function keyPressed() {
+  lose();
+}
+
+/**
  * Show the game over message if needed, and the current score
  */
 function displayUI() {

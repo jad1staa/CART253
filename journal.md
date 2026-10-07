@@ -45,4 +45,4 @@ My third prototype, “Split Personalities,” uses the mouse position as a choi
 
 Overall, I learned that conditionals can do more than simply tell a program what to do. They can create choices, reactions, surprises, and different behaviours. Even with very simple code, changing the conditions can make an interaction feel much more alive.
 
-![alt text](image.png)
+![alt text](shy.png)
