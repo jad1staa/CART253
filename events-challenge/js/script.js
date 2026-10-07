@@ -51,6 +51,27 @@ function keyPressed() {
 }
 
 /**
+ * Handles mouse movement
+ */
+function mouseMoved() {
+  lose();
+}
+
+/**
+ * Handles mouse clicks
+ */
+function mousePressed() {
+  lose();
+}
+
+/**
+ * Handles mouse wheel movement
+ */
+function mouseWheel() {
+  lose();
+}
+
+/**
  * Show the game over message if needed, and the current score
  */
 function displayUI() {
