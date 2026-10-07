@@ -23,6 +23,13 @@ function setup() {
 }
 
 /**
+ * Ends the game
+ */
+function lose() {
+  gameOver = true;
+}
+
+/**
  * Update the score and display the UI
  */
 function draw() {
