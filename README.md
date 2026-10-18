@@ -90,3 +90,27 @@ Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20condition
 Live Link: https://jad1staa.github.io/CART253/prototyping%20conditionals/proto%203/
 
 Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20conditionals/proto%203
+
+
+### Prototyping: Events
+
+#### Proto 1 - Button Addict
+![alt text](addict.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20events/prototype%201/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20events/prototype%201
+
+#### Proto 2 - Keyboard Orchestra
+![alt text](orchestra.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20events/prototype%202/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20events/prototype%202
+
+#### Proto 3 - Don't Leave Me
+![alt text](leave.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20events/prototype%203/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20events/prototype%203
