@@ -34,6 +34,10 @@ function setupVisibilityEvent() {
     } else {
       message = "You're back! ❤️";
       backgroundColor = "lightblue";
+
+      setTimeout(function () {
+        message = "Hey! Stay with me ❤️";
+      }, 2000);
     }
   });
 }
