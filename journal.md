@@ -46,3 +46,22 @@ My third prototype, “Split Personalities,” uses the mouse position as a choi
 Overall, I learned that conditionals can do more than simply tell a program what to do. They can create choices, reactions, surprises, and different behaviours. Even with very simple code, changing the conditions can make an interaction feel much more alive.
 
 ![alt text](shy.png)
+
+
+## October 17th, 2026 - Prototyping Events
+
+For this assignment, I created three small prototypes to explore how events can change the way a program behaves. Each prototype uses a different type of input to make the program feel interactive.
+
+My first prototype, **Button Addict**, uses mouse clicks. Every time the user clicks, the circle grows larger. I used a variable to store the circle's size and increased it with the `mousePressed()` function. I liked how such a simple interaction could make the program feel responsive.
+
+My second prototype, **Keyboard Orchestra**, explores keyboard input. Pressing different keys changes the circle's colour. I used the `keyPressed()` function and conditional statements to check which key was pressed. This showed me how users can control a program in different ways through simple actions.
+
+My third prototype, **Don't Leave Me**, explores browser events. The program changes its message and background colour when the user switches tabs and returns. I used the browser's visibility event to make the sketch react to the user's behaviour, rather than only responding to mouse or keyboard input.
+
+Overall, these prototypes helped me understand that events allow programs to respond to things happening both inside and outside the canvas. They can make a program feel playful, expressive, or even as if it has a personality. I also learned that a small amount of code can create an interaction that communicates an idea.
+
+If I were to develop these projects further, I would experiment with smoother transitions, additional reactions, and more ways for the user to interact with each sketch.
+
+![alt text](addict.png)
+![alt text](orchestra.png)
+![alt text](leave.png)
