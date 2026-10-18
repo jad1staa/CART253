@@ -1,24 +1,42 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Keyboard Orchestra
+ * Author: Jad Nami
+ *
+ * Press different keys to change the circle's colour.
  */
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
-function setup() {
+let circleColor = "red";
 
+function setup() {
+  createCanvas(400, 400);
 }
 
+/**
+ * Draws the circle.
+ */
+function draw() {
+  background(240);
+
+  fill(circleColor);
+  noStroke();
+  ellipse(width / 2, height / 2, 150);
+}
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
-function draw() {
+ * Changes colour when a key is pressed.
+ */
 
+// press r for red, b for blue, g for green, y for yellow
+function keyPressed() {
+  if (key === "r") {
+    circleColor = "red";
+  } else if (key === "b") {
+    circleColor = "blue";
+  } else if (key === "g") {
+    circleColor = "green";
+  } else if (key === "y") {
+    circleColor = "yellow";
+  }
 }
