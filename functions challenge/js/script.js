@@ -20,6 +20,18 @@ const ball = {
     }
 };
 
+// Our second ball
+const ball2 = {
+    x: 100,
+    y: 20,
+    width: 15,
+    height: 15,
+    velocity: {
+        x: 2,
+        y: 5
+    }
+};
+
 // Our paddle
 const paddle = {
     x: 300,
@@ -44,12 +56,16 @@ function draw() {
 
     movePaddle(paddle);
     moveBall(ball);
+    moveBall(ball2);
 
     handleBounce(ball, paddle);
+    handleBounce(ball2, paddle);
 
     drawPaddle(paddle);
     drawBall(ball);
+    drawBall(ball2);
 }
+
 
 /**
  * Moves the paddle
@@ -98,6 +114,8 @@ function drawBall(ball) {
     rect(ball.x, ball.y, ball.width, ball.height);
     pop();
 }
+
+
 
 /**
  * Returns true if rectA and rectB overlap, and false otherwise
