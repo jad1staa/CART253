@@ -62,14 +62,17 @@ function movePaddle(paddle) {
  * Moves the ball passed in as a parameter
  */
 function moveBall(ball) {
-
+    ball.x += ball.velocity.x;
+    ball.y += ball.velocity.y;
 }
 
 /**
  * Bounces the provided ball off the provided paddle
  */
 function handleBounce(ball, paddle) {
-
+    if (checkOverlap(ball, paddle)) {
+        ball.velocity.y *= -1;
+    }
 }
 
 /**
