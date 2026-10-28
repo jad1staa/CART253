@@ -26,3 +26,23 @@ function draw() {
     drawCircle(circle);
   }
 }
+/**
+ * Returns a circle with random properties.
+ */
+function createCircle() {
+  return {
+    x: random(width),
+    y: random(height),
+    size: random(10, 50),
+    color: color(random(255), random(255), random(255))
+  };
+}
+
+/**
+ * Draws a circle using its data.
+ */
+function drawCircle(circle) {
+  noStroke();
+  fill(circle.color);
+  ellipse(circle.x, circle.y, circle.size);
+}
