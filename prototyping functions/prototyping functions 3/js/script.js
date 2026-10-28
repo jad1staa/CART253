@@ -1,24 +1,23 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Shape Chameleon
+ * Author: Jad Nami
+ *
+ * One function draws different shapes using parameters.
  */
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
 function setup() {
-
+  createCanvas(400, 400);
 }
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
+  background(245);
 
+  // Draw different shapes using the same function
+  drawShape(100, 120, 80, "circle", "tomato");
+  drawShape(280, 120, 80, "square", "royalblue");
+  drawShape(100, 280, 80, "triangle", "gold");
+  drawShape(280, 280, 80, "circle", "mediumseagreen");
 }
+
