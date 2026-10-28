@@ -33,3 +33,22 @@ function draw() {
   }
 }
 
+/**
+ * Moves a circle and resets it when it leaves the canvas.
+ */
+function moveCircle(circle) {
+  circle.x += circle.speed;
+
+  if (circle.x > width + circle.size) {
+    circle.x = -circle.size;
+  }
+}
+
+/**
+ * Draws a circle using the supplied colour.
+ */
+function drawCircle(circle, circleColor) {
+  noStroke();
+  fill(circleColor);
+  ellipse(circle.x, circle.y, circle.size);
+}
