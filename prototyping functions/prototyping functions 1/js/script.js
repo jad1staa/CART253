@@ -1,24 +1,28 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Circle Factory
+ * Author: Jad Nami
+ *
+ * Creates a collection of randomly generated circles.
  */
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
-function setup() {
+let circles = [];
 
+function setup() {
+  createCanvas(400, 400);
+
+  // Create 20 circles using our function
+  for (let i = 0; i < 20; i++) {
+    circles.push(createCircle());
+  }
 }
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
+  background(240);
 
+  // Draw every circle
+  for (let circle of circles) {
+    drawCircle(circle);
+  }
 }
