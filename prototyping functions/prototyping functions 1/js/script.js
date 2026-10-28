@@ -44,5 +44,9 @@ function createCircle() {
 function drawCircle(circle) {
   noStroke();
   fill(circle.color);
-  ellipse(circle.x, circle.y, circle.size);
+  ellipse(
+    circle.x + sin(frameCount * 0.02 + circle.y) * 15,
+    circle.y,
+    circle.size
+  );
 }
