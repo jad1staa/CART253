@@ -21,3 +21,23 @@ function draw() {
   drawShape(280, 280, 80, "circle", "mediumseagreen");
 }
 
+/**
+ * Draws a shape based on its position, size, type, and colour.
+ */
+function drawShape(x, y, size, shapeType, shapeColor) {
+  fill(shapeColor);
+  noStroke();
+
+  if (shapeType === "circle") {
+    ellipse(x, y, size);
+  } else if (shapeType === "square") {
+    rectMode(CENTER);
+    rect(x, y, size, size);
+  } else if (shapeType === "triangle") {
+    triangle(
+      x, y - size / 2,
+      x - size / 2, y + size / 2,
+      x + size / 2, y + size / 2
+    );
+  }
+}
