@@ -1,24 +1,35 @@
 /**
- * Title of Project
- * Author Name
- * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Traffic Party
+ * Author: Jad Nami
+ *
+ * Multiple circles move using the same function.
  */
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+let circles = [];
+
 function setup() {
+  createCanvas(400, 400);
 
+  // Create 10 circles
+  for (let i = 0; i < 10; i++) {
+    circles.push({
+      x: random(width),
+      y: random(height),
+      size: random(15, 35),
+      speed: random(1, 4)
+    });
+  }
 }
 
-
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
+  background(30);
 
+  // Move and draw every circle
+  for (let circle of circles) {
+    moveCircle(circle);
+    drawCircle(circle, "lime");
+  }
 }
+
