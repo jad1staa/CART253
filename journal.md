@@ -65,3 +65,19 @@ If I were to develop these projects further, I would experiment with smoother tr
 ![alt text](addict.png)
 ![alt text](orchestra.png)
 ![alt text](leave.png)
+
+## October 28th, 2026 - Prototyping Functions
+
+For this assignment, I created three prototypes to explore how functions can make code more organized and reusable.
+
+My first prototype, Circle Factory, creates 20 circles with random positions, sizes, and colours. I used a function called createCircle() to generate the data for each circle and return it as an object. I also created a separate function to draw each circle. What I found interesting was how one function could generate many different circles without having to manually define each one.
+
+My second prototype, Traffic Party, explores how functions can give multiple objects the same behaviour. Each circle moves across the canvas at its own speed. Instead of writing separate movement code for every circle, I used one function that receives a circle as a parameter. This helped me understand how functions make it easier to manage many elements that behave similarly.
+
+My third prototype, Shape Chameleon, uses one function to draw different shapes depending on the parameters it receives. By changing the position, size, shape type, and colour, I could create several different objects without repeating the drawing code. This showed me how functions can make a program more flexible.
+
+Overall, I learned that functions are useful not only for organizing code but also for making projects easier to expand. I was surprised by how much variety could come from reusing a small amount of code. The most challenging part was understanding how parameters and return values work together, but experimenting with the three prototypes helped make the concepts clearer.
+
+If I developed these projects further, I would add more interactions and experiment with generating more complex patterns. I hope someone viewing my work can see how simple functions can create a variety of visual results.
+
+![alt text](shapes.png)
