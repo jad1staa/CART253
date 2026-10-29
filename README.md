@@ -121,20 +121,20 @@ Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20events/pr
 #### Proto 1 - Circle Factory
 ![alt text](factory.png)
 
-Live Link: https://jad1staa.github.io/CART253/prototyping%20events/prototype%201/
+Live Link: https://jad1staa.github.io/CART253/prototyping%20functions/prototyping%20functions%201/
 
 Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20functions/prototyping%20functions%201
 
 #### Proto 2 - Traffic Party
 ![alt text](traffic.png)
 
-Live Link: https://jad1staa.github.io/CART253/prototyping%20events/prototype%202/
+Live Link: https://jad1staa.github.io/CART253/prototyping%20functions/prototyping%20functions%202/
 
 Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20functions/prototyping%20functions%202
 
 #### Proto 3 - Shape Chameleon
 ![alt text](shapes.png)
 
-Live Link: https://jad1staa.github.io/CART253/prototyping%20events/prototype%203/
+Live Link: https://jad1staa.github.io/CART253/prototyping%20functions/prototyping%20functions%203/
 
 Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20functions/prototyping%20functions%203
