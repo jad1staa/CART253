@@ -46,3 +46,42 @@ function draw() {
     drawBall(ball);
   }
 }
+
+/**
+ * Moves the specified ball.
+ */
+function moveBall(ball) {
+  ball.x += ball.velocity.x;
+  ball.y += ball.velocity.y;
+}
+
+/**
+ * Bounces the specified ball off the walls.
+ */
+function bounceBall(ball) {
+  if (ball.x > width || ball.x < 0) {
+    ball.velocity.x *= -1;
+  }
+
+  if (ball.y > height || ball.y < 0) {
+    ball.velocity.y *= -1;
+  }
+}
+
+/**
+ * Draws the specified ball.
+ */
+function drawBall(ball) {
+  push();
+  noStroke();
+  fill(ball.fill);
+  ellipse(ball.x, ball.y, ball.size);
+  pop();
+}
+
+/**
+ * Adds a ball when the mouse is clicked.
+ */
+function mousePressed() {
+  balls.push(createBall());
+}
