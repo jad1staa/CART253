@@ -8,8 +8,8 @@
 
 "use strict";
 
-let StartColor = undefined;
-let endColor = undefined;
+let startcolor = undefined;
+let endcolor = undefined;
 let gradientIndex = 0;
 
 // let clownImage = undefined;
@@ -24,8 +24,11 @@ let imageWidth =40;
 */
 async function setup() {
     createCanvas(500, 500);
+startcolor = color(0, 0, 255);
+endcolor = color(255, 0, 0);
     // clownImage = await loadImage("clown.png");
     imageMode(CENTER);
+
 }
 
 
@@ -38,7 +41,7 @@ function draw() {
     y=0;
     while(gradientIndex<1){
         let rectColor = 
-        lerpColor(startColor,endColor,gradientIndex);
+        lerpColor(startcolor,endcolor,gradientIndex);
         noStroke();
         fill(rectColor);
         rect(0,y,width,2);
