@@ -36,6 +36,18 @@ function draw() {
         shade += 25;
     }
     
+    // Draw horizontal lines
+    let y = 0;
+    let horizontalShade = 0;
+
+    while (y <= height) {
+        stroke(horizontalShade);
+        strokeWeight(1);
+        line(0, y, width, y);
+
+        y += 50;
+        horizontalShade += 25;
+    }
 }
 
     // stroke(0);
