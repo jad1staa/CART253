@@ -19,7 +19,18 @@ function setup() {
  * gradually lightening colour
  */
 function draw() {
-    background("pink");
+    // Draw a vertical pretty gradient
+
+    let startColor = color("#845EC2"); // Purple
+    let endColor = color("#FF9671");   // Orange-pink
+
+   for (let x = 0; x < width; x++) {
+    let gradientIndex = map(x, 0, width, 0, 1);
+    let gradientColor = lerpColor(startColor, endColor, gradientIndex);
+
+    stroke(gradientColor);
+    line(x, 0, x, height);
+    }
 
     // Starting values
     let x = 0;
