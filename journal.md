@@ -81,3 +81,21 @@ Overall, I learned that functions are useful not only for organizing code but al
 If I developed these projects further, I would add more interactions and experiment with generating more complex patterns. I hope someone viewing my work can see how simple functions can create a variety of visual results.
 
 ![alt text](shapes.png)
+
+## November 6th, 2026 - Prototyping Arrays
+
+Working on these three prototypes helped me understand how arrays allow us to manage multiple elements within a single program. Before this assignment, I mostly worked with individual objects and variables. Using arrays made it possible to create systems where many elements could exist and behave independently.
+
+For my first prototype, **Bubble Universe**, I created an array of bubble objects. Each bubble has its own position, size, speed and colour. Using a loop, I was able to move and draw all the bubbles without having to write separate instructions for each one. I found this particularly interesting because adding more bubbles only required changing one number.
+
+For my second prototype, **Word Salad**, I experimented with an array of strings. I used a collection of words and displayed them at randomized positions, sizes and colours. I enjoyed seeing how something as simple as an array of words could create an unpredictable visual composition.
+
+Finally, **Solar System** explored arrays of objects with more complex properties. Each planet has its own orbital distance, size, speed, angle and colour. Using a loop, I could update each planet's position independently while keeping the code organized.
+
+What surprised me most was how much could be achieved with relatively little code. I am beginning to understand how arrays and loops work together to create more complex systems. I also found it interesting that the same basic concept could be applied to such different projects.
+
+I would be interested in developing these ideas further, particularly by adding interaction and allowing elements to respond to the user's actions. Overall, this assignment helped me understand how arrays make programs more flexible, organized and capable of handling many elements at once.
+
+![alt text](bubbleverse.png)
+![alt text](<word salad.png>)
+![alt text](<solar system.png>)

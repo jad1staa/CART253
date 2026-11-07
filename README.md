@@ -138,3 +138,26 @@ Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20functions
 Live Link: https://jad1staa.github.io/CART253/prototyping%20functions/prototyping%20functions%203/
 
 Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20functions/prototyping%20functions%203
+
+### Prototyping: Arrays
+
+#### Proto 1 - Bubble Universe
+![alt text](bubbleverse.png)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20arrays/prototype%201%20arrays/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20arrays/prototype%201%20arrays
+
+#### Proto 2 - Word Salad
+![alt text](<word salad.png>)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20arrays/prototype%202%20arrays/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20arrays/prototype%202%20arrays
+
+#### Proto 3 - Solar System
+![alt text](<solar system.png>)
+
+Live Link: https://jad1staa.github.io/CART253/prototyping%20arrays/prototype%203%20arrays/
+
+Code Link: https://github.com/jad1staa/CART253/tree/main/prototyping%20arrays/prototype%203%20arrays
