@@ -43,3 +43,4 @@ function draw() {
         ellipse(bubble.x, bubble.y, bubble.size);
     }
 }
+
