@@ -19,7 +19,7 @@ let flowerOne = {
     y: 500 - 150,
     petalWidth: 75,
     fillStem: "DarkMagenta",
-    strokePetal: "DarkTurquoise",
+    strokePetal: "DarkOrchid",
     fillPetal: "HotPink",
 
 };
@@ -32,7 +32,7 @@ let flowerTwo = {
     petalWidth: 50,
     fillStem: "DarkMagenta",
     strokePetal: "DarkTurquoise",
-    fillPetal: "HotPink",
+    fillPetal: "DeepPink",
 };
 
 let flowerThree = {
@@ -42,8 +42,8 @@ let flowerThree = {
     y: 500 - 120,
     petalWidth: 90,
     fillStem: "DarkMagenta",
-    strokePetal: "DarkTurquoise",
-    fillPetal: "HotPink",
+    strokePetal: "DarkSlateGrey",
+    fillPetal: "DeepSkyBlue",
 };
 
 
@@ -59,57 +59,63 @@ function setup() {
 */
 function draw() {
     background("DodgerBlue");
-    //stem
-    push();
-    noStroke();
-    fill(flowerOne.fillStem);
-    rect(flowerOne.x, flowerOne.y, flowerOne.width, flowerOne.height);
-    pop();
-    //petal
-    push();
-    strokeweight(4);
-    stroke(flowerOne.strokePetal);
-    fill(flowerOne.fillPetal);
-    ellipse (flowerOne.x + flowerOne.width/2, 
-        flowerOne.y-flowerOne.petalWidth/2, 
-        flowerOne.petalWidth,
-        flowerOne.petalWidth);
-    pop();
+    drawFlower(flowerOne);
+    drawFlower(flowerTwo);
+    drawFlower(flowerThree);
+
+} 
+    function drawFlower(flower) {
+    
+    // //stem
+    // push();
+    // noStroke();
+    // fill(flowerOne.fillStem);
+    // rect(flowerOne.x, flowerOne.y, flowerOne.width, flowerOne.height);
+    // pop();
+    // //petal
+    // push();
+    // strokeweight(4);
+    // stroke(flowerOne.strokePetal);
+    // fill(flowerOne.fillPetal);
+    // ellipse (flowerOne.x + flowerOne.width/2, 
+    //     flowerOne.y-flowerOne.petalWidth/2, 
+    //     flowerOne.petalWidth,
+    //     flowerOne.petalWidth);
+    // pop();
+
+    //  //stem
+    // push();
+    // noStroke();
+    // fill(flowerTwo.fillStem);
+    // rect(flowerTwo.x, flowerTwo.y, flowerTwo.width, flowerTwo.height);
+    // pop();
+    // //petal
+    // push();
+    // strokeweight(4);
+    // stroke(flowerTwo.strokePetal);
+    // fill(flowerTwo.fillPetal);
+    // ellipse (flowerTwo.x + flowerTwo.width/2, 
+    //     flowerTwo.y-flowerTwo.petalWidth/2, 
+    //     flowerTwo.petalWidth,
+    //     flowerTwo.petalWidth);
+    // pop();
+
 
      //stem
     push();
     noStroke();
-    fill(flowerTwo.fillStem);
-    rect(flowerTwo.x, flowerTwo.y, flowerTwo.width, flowerTwo.height);
+    fill(flower.fillStem);
+    rect(flower.x, flower.y, flower.width, flower.height);
     pop();
     //petal
     push();
     strokeweight(4);
-    stroke(flowerTwo.strokePetal);
-    fill(flowerTwo.fillPetal);
-    ellipse (flowerTwo.x + flowerTwo.width/2, 
-        flowerTwo.y-flowerTwo.petalWidth/2, 
-        flowerTwo.petalWidth,
-        flowerTwo.petalWidth);
-    pop();
-
-     //stem
-    push();
-    noStroke();
-    fill(flowerThree.fillStem);
-    rect(flowerThree.x, flowerThree.y, flowerThree.width, flowerThree.height);
-    pop();
-    //petal
-    push();
-    strokeweight(4);
-    stroke(flowerThree.strokePetal);
-    fill(flowerThree.fillPetal);
-    ellipse (flowerThree.x + flowerThree.width/2, 
-        flowerThree.y-flowerThree.petalWidth/2, 
-        flowerThree.petalWidth,
-        flowerThree.petalWidth);
+    stroke(flower.strokePetal);
+    fill(flower.fillPetal);
+    ellipse (flower.x + flower.width/2, 
+        flower.y-flower.petalWidth/2, 
+        flower.petalWidth,
+        flower.petalWidth);
     pop();
     
-
-
-}
+    }
